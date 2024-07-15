@@ -16,12 +16,7 @@ function App() {
     <div className='App h-screen bg-gray-600 flex items-center w-full justify-center'>
       <playerContext.Provider value={{ player, setPlayer }}>
         <computerContext.Provider value={{ computer, setComputer }}>
-          <Routes>
-            <Route path='/' element={<HomePage />} />
-            <Route path='/game' element={<GamePage />} />
-            <Route path='/score/:id' element={<ScorePage />} />
-            <Route path='/score' element={<ScorePage />} />
-          </Routes>
+          Test bla bla
         </computerContext.Provider>
       </playerContext.Provider>
     </div>
