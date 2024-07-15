@@ -38,7 +38,7 @@ export default function HomePage() {
     }
 
     return <div className="bg-gray-300 bg-opacity-25 px-16 py-24 rounded-2xl h-fit flex justify-around items-around flex-col bg-primaryBg gap-10">
-        <h1 className=" text-cyan-300 text-3xl font-bold">Welcome to the best card game in the world!</h1>
+        <h1 className=" text-cyan-300 text-3xl font-bold">Wow</h1>
         <span className=" w-full box-border items-center flex gap-6 justify-between">
             <label htmlFor="" className="font-bold text-white text-2xl">name:</label>
             <input type="text" className=" font-bold text-center w-full py-4 rounded-md border-2" onChange={(e) => setName(e.target.value)} />
